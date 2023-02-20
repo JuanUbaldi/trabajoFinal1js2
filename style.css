@@ -165,17 +165,17 @@ iframe {
   background-repeat: no-repeat;
 }
 #londres {
-  background-image: url(./imgClima/londres.jpg);
+  background-image: url(./imgClima/londres.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #paris {
-  background-image: url(./imgClima/paris.jpg);
+  background-image: url(./imgClima/paris.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #oslo {
-  background-image: url(./imgClima/oslo.jpg);
+  background-image: url(./imgClima/oslo.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
