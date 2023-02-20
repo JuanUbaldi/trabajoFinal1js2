@@ -1,0 +1,364 @@
+body {
+  background-color: rgb(224, 182, 182);
+}
+
+.headerH1 {
+  text-align: center;
+  background-color: rgb(153, 109, 109);
+}
+
+.nav li {
+  list-style-type: none;
+}
+.nav a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(63, 9, 9);
+}
+.navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 150px;
+}
+.weather-content {
+  background-image: linear-gradient(
+    90deg,
+    rgb(96, 95, 112, 0.8) 0%,
+    rgb(131, 87, 134, 0.6) 39%,
+    rgb(94, 94, 146, 0.9) 100%
+  );
+  border: rgb(128, 85, 85) 3px solid;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+}
+.h1Buscador {
+  text-align: center;
+}
+
+.get-weather {
+  margin: 20%;
+}
+iframe {
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.labelRojo {
+  color: rgb(148, 49, 95);
+}
+.labelVerde {
+  color: Green;
+}
+.fondoNegro {
+  background-image: linear-gradient(
+    90deg,
+    rgb(96, 95, 112, 0.8) 0%,
+    rgb(131, 87, 134, 0.6) 39%,
+    rgb(94, 94, 146, 0.9) 100%
+  );
+}
+.fondoVerde {
+  background-image: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgb(66, 102, 136) 100%
+  );
+}
+.color {
+  font-size: 100px;
+  color: blueviolet;
+  margin: 200px;
+}
+.background {
+  background-color: black;
+}
+#form1,
+#form2,
+#form3,
+#form4,
+#form5,
+#form6,
+#form7,
+#form8,
+#form9,
+#form10,
+#form11,
+#form12,
+#form13 {
+  padding-left: 10%;
+  padding: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+#footer {
+  padding: 50px;
+  margin-top: 50px;
+  text-align: center;
+  height: 20px;
+  background-color: rgb(153, 109, 109);
+}
+.h2PresentacionCiudades {
+  text-align: center;
+}
+#cartitas {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#Amsterdam {
+  background-image: url(./imgClima/amsterdadm.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Madrid {
+  background-image: url(./imgClima/madrid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Kiev {
+  background-image: url(./imgClima/kiev.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Berlin {
+  background-image: url(./imgClima/berlin.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Viena {
+  background-image: url(./imgClima/viena.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Budapest {
+  background-image: url(./imgClima/budapest.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Estocolmo {
+  background-image: url(./imgClima/estocolmo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Ushuaia {
+  background-image: url(./imgClima/ushuaia.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Bariloche {
+  background-image: url(./imgClima/bariloche.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Atenas {
+  background-image: url(./imgClima/atenas.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Roma {
+  background-image: url(./imgClima/roma.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#londres {
+  background-image: url(./imgClima/londres.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#paris {
+  background-image: url(./imgClima/paris.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#oslo {
+  background-image: url(./imgClima/oslo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Moscu {
+  background-image: url(./imgClima/moscu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#casablanca {
+  background-image: url(./imgClima/casablanca.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#reikjavik {
+  background-image: url(./imgClima/reykjavik.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Cabo {
+  background-image: url(./imgClima/elCabo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Niger {
+  background-image: url(./imgClima/niger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Tripoli {
+  background-image: url(./imgClima/tripoli.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sidney {
+  background-image: url(./imgClima/sydney.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Darwin {
+  background-image: url(./imgClima/darwin.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Dheli {
+  background-image: url(./imgClima/dheli.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Bangkok {
+  background-image: url(./imgClima/bangkok.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Dacca {
+  background-image: url(./imgClima/dacca.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Damasco {
+  background-image: url(./imgClima/damasco.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#NY {
+  background-image: url(./imgClima/york.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Mexico {
+  background-image: url(./imgClima/mexico.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Rio {
+  background-image: url(./imgClima/rio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Lima {
+  background-image: url(./imgClima/lima.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#BA {
+  background-image: url(./imgClima/buenosAires.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.frioSeco,
+.frioHumedo,
+.templadoSeco,
+.templadoHumedo,
+.calidoHumedo,
+.calidoSeco {
+  background-color: bisque;
+}
+
+.imgPerrito {
+  display: flex;
+  flex-direction: row;
+}
+.imgPerrito p {
+  padding: 50px;
+}
+.climaTurismo h2 {
+  text-align: center;
+}
+
+.calido {
+  display: flex;
+  flex-direction: row;
+}
+.calido p {
+  padding: 50px;
+}
+.frias {
+  display: flex;
+  flex-direction: row;
+}
+.frias p {
+  padding: 50px;
+}
+.botonFrio {
+  background-color: rgb(215, 236, 249);
+  height: 50px;
+  width: 250px;
+  font-size: 30px;
+  color: rgb(70, 183, 206);
+  border-radius: 30px;
+  margin-left: 30%;
+}
+.botonRemoverFrio {
+  background-color: rgb(215, 236, 249);
+
+  color: rgb(70, 183, 206);
+  border-radius: 30px;
+}
+.botonCalor {
+  background-color: rgb(249, 215, 236);
+  height: 50px;
+  width: 250px;
+  font-size: 30px;
+  color: rgb(192, 98, 114);
+  border-radius: 30px;
+  margin-left: 30%;
+}
+.botonRemoverCalor {
+  background-color: rgb(249, 215, 236);
+
+  color: rgb(192, 98, 114);
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 1px) {
+  .weather-content {
+    width: 100%;
+  }
+  .iframe {
+    width: 100px;
+  }
+  .navList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #cartitas {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .imgPerrito,
+  .calido,
+  .frias {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .h2PresentacionCiudades {
+    text-align: center;
+  }
+  .footer {
+    width: 100%;
+  }
+}
